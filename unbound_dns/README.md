@@ -1,4 +1,4 @@
-# Docker container for unbound DNS Server
+# Docker image for unbound DNS Server
 unbound DNS Server based on alpine for Raspberry Pi
 
 ## Build docker image
