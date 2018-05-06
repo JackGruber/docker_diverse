@@ -1,7 +1,7 @@
 # Docker DHCP Server
 Docker ISC DHCP Server on Alpine 
 
-## Build docker container
+## Build docker image
 ```
 docker build -t dhcpd .
 ```
