@@ -24,7 +24,7 @@ RUN LIBRESSL_DOWNLOAD_URL="https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl
     make -j$(getconf _NPROCESSORS_ONLN); \
     make install
 
-ARG UNBOUND_VERSION="1.9.2"
+ARG UNBOUND_VERSION="1.10.0"
 
 RUN UNBOUND_DOWNLOAD_URL="https://www.unbound.net/downloads/unbound-${UNBOUND_VERSION}.tar.gz"; \
     UNBOUND_KEY="EDFAA3F2CA4E6EB05681AF8E9F6F1C2D7E045F8D"; \
