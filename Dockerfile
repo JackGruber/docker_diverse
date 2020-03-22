@@ -26,7 +26,7 @@ RUN LIBRESSL_DOWNLOAD_URL="https://ftp.openbsd.org/pub/OpenBSD/LibreSSL/libressl
 
 ARG UNBOUND_VERSION="1.10.0"
 
-RUN UNBOUND_DOWNLOAD_URL="https://www.unbound.net/downloads/unbound-${UNBOUND_VERSION}.tar.gz"; \
+RUN UNBOUND_DOWNLOAD_URL="https://nlnetlabs.nl/downloads/unbound/unbound-${UNBOUND_VERSION}.tar.gz"; \
     UNBOUND_KEY="EDFAA3F2CA4E6EB05681AF8E9F6F1C2D7E045F8D"; \
     INTERNIC_KEY="F0CB1A326BDF3F3EFA3A01FA937BB869E3A238C5"; \
     BUILD_DEPS='build-base curl file gnupg linux-headers'; \
